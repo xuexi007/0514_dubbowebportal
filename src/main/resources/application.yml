@@ -1,0 +1,19 @@
+
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: zookeeperserver:2181
+  protocol:
+    port: -1
+    name: dubbo
+    id: dubbo
+  application:
+    name: web-shop-consumer
+server:
+    port: 9001
+spring:
+  redis:
+    host: redisserver
+    port: 6379
+    password: offcn123
+    database: 0
